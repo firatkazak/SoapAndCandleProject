@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Stripe.net" Version="42.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FratSCWeb_Common\FratSCWeb_Common.csproj" />
+    <ProjectReference Include="..\FratSCWeb_DataAccess\FratSCWeb_DataAccess.csproj" />
+    <ProjectReference Include="..\FratSCWeb_Models\FratSCWeb_Models.csproj" />
+  </ItemGroup>
+
+</Project>
